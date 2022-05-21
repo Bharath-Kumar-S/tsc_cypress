@@ -27,3 +27,7 @@ import './commands'
 Cypress.Commands.add('dataCy', (value: string) => {
   return cy.get(value)
 })
+
+Cypress.Commands.add('login', (email:string,pass:string) => {
+  return `${email} ${pass}`
+})

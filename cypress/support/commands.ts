@@ -33,6 +33,7 @@ declare global {
        * @example cy.dataCy('greeting')
        */
       dataCy(value: string):Cypress.Chainable<JQuery>
+      login(email: string,pass: string):string
     }
-  }
+ }
 }

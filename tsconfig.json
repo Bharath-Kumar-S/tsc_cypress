@@ -21,6 +21,7 @@
   },
   "include": [
     "cypress/integration/**/*.ts",
-    "cypress/support/*.ts"
+    "cypress/support/*.ts",
+    "cypress/pages/*.ts"
   ]
 }
